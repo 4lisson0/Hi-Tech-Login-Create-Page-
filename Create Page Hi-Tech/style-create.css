@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    overflow: hidden;
+    grid-template-areas:
+        "header header"
+        "main aside";
+}
+
+main {
+    background-color: darkblue;
+    width: 41em;
+    height: 50em;
+}
+
+.oculus {
+    width: 41em;
+    height: 50em;
+    object-fit: cover;
+}
+
+aside {
+    background-image: url(/assets/blade_studio_series_Phantom_1920x1080.png);
+    width: 55em;
+    height: 50em;
+}
+
+
+/* Formata todo formulario */
+.form {
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    display: flex;
+    border: transparent;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 50px;
+}
+
+/* Formata os inputs do form */
+.inputUser {
+    font-size: 15px;
+    font-family: 'Quicksand';
+    display: flex;
+    color: white;
+    background: none;
+    border: 3px solid #7A0BC0;
+    border-radius: 10px;
+    width: 557px;
+    height: 36px;
+    margin-top: 3em;
+}
+
+/* Ajusta os textos dos inputs */
+.labeldados {
+    position: relative;
+    top: -4em;
+}
+
+/* Ajusta os texte apos o password */
+.options {
+    position: relative;
+    display: flex;
+    top: -23px;
+    justify-content: space-around;
+    top: -19px;
+}
+
+button {
+    position: relative;
+    width: 208px;
+    height: 45px;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    background: linear-gradient(93.71deg, #7A0BC0 13.27%, #FA58B6 101.64%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* posiciona do botao */
+.bp {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.text {
+    font-size: 15px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 1em;
+    gap: 1em;
+}
+
+.text2 {
+    color: #FA58B6;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        width: 0em;
+        height: 0em;
+    }
+
+    .oculus {
+        width: 0em;
+        height: 0em;
+    }
+
+    aside {
+        width: 414px;
+        height: 57em;
+        overflow: scroll;
+    }
+
+    .form {
+        color: white;
+        font-family: 'Quicksand';
+        font-size: 22px;
+        display: flex;
+        gap: 65px;
+        padding: 1em;
+        border: transparent;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+        margin-top: 1em;
+        align-items: center;
+    }
+
+    .inputUser {
+        font-size: 12px;
+        display: flex;
+        color: white;
+        background: none;
+        border: 3px solid #7A0BC0;
+        border-radius: 10px;
+        width: 235px;
+        height: 36px;
+    }
+
+    label {
+        position: relative;
+        display: flex;
+        top: -4em;
+    }
+
+    .options {
+        display: flex;
+        gap: 34px;
+        font-size: 19px;
+        top: -60px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .forgot {
+        color: white;
+        text-decoration: none;
+    }
+
+    button {
+        position: relative;
+        width: 226px;
+        height: 54px;
+        font-family: 'Quicksand';
+        font-size: 21px;
+        background: linear-gradient(93.71deg, #7A0BC0 13.27%, #FA58B6 101.64%);
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+        border: none;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .bp {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -35px;
+    }
+
+    .text {
+        font-size: 18px;
+        display: flex;
+        position: relative;
+        top: -4em;
+        /* gap: 1em; */
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+    }
+}
