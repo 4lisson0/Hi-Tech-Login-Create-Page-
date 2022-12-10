@@ -26,7 +26,7 @@ main {
 }
 
 aside {
-    background-image: url(/assets/blade_studio_series_Phantom_1920x1080.png);
+    background-image: url(assets/blade_studio_series_Phantom_1920x1080.png);
     width: 55em;
     height: 51em;
 }
@@ -121,10 +121,8 @@ button {
     }
 
     aside {
-        width: 55em;
-        height: 51em;
-    }
-    
+        width: 365px;
+        height: 59em;
     }
     .form {
         color: white;
