@@ -21,14 +21,14 @@ main {
 
 .oculus {
     width: 41em;
-    height: 50em;
+    height: 51em;
     object-fit: cover;
 }
 
 aside {
-    background-image: url(assets/blade_studio_series_Phantom_1920x1080.png);
-    width: 365px;
-    height: 59em;
+    background-image: url(/assets/blade_studio_series_Phantom_1920x1080.png);
+    width: 55em;
+    height: 51em;
 }
 
 
@@ -109,7 +109,7 @@ button {
     text-decoration: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 416px) {
     main {
         width: 0em;
         height: 0em;
@@ -122,7 +122,7 @@ button {
 
     aside {
         width: 365px;
-        height: 57em;
+        height: 59em;
     }
     .form {
         color: white;
@@ -201,5 +201,4 @@ button {
         align-content: space-around;
         align-items: center;
     }
-
 }
