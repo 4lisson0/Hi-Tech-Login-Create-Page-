@@ -7,6 +7,7 @@
 
 body {
     display: grid;
+    overflow: hidden;
     grid-template-areas:
         "header header"
         "main aside";
@@ -25,7 +26,7 @@ main {
 }
 
 aside {
-    background-image: url(assets/blade_studio_series_Phantom_1920x1080.png);
+    background-image: url(/assets/blade_studio_series_Phantom_1920x1080.png);
     width: 55em;
     height: 50em;
 }
@@ -120,11 +121,10 @@ button {
     }
 
     aside {
-        width: 414px;
-        height: 57em;
+        width: 400px;
+        height: 42em;
         overflow: scroll;
     }
-
     .form {
         color: white;
         font-family: 'Quicksand';
@@ -139,7 +139,7 @@ button {
         margin-top: 1em;
         align-items: center;
     }
-
+    
     .inputUser {
         font-size: 12px;
         display: flex;
@@ -150,13 +150,13 @@ button {
         width: 235px;
         height: 36px;
     }
-
+    
     label {
         position: relative;
         display: flex;
         top: -4em;
     }
-
+    
     .options {
         display: flex;
         gap: 34px;
@@ -165,12 +165,12 @@ button {
         flex-direction: column;
         align-items: flex-start;
     }
-
+    
     .forgot {
         color: white;
         text-decoration: none;
     }
-
+    
     button {
         position: relative;
         width: 226px;
@@ -183,14 +183,14 @@ button {
         border-radius: 10px;
         color: white;
     }
-
+    
     .bp {
         display: flex;
         justify-content: center;
         position: relative;
         top: -35px;
     }
-
+    
     .text {
         font-size: 18px;
         display: flex;
@@ -202,4 +202,5 @@ button {
         align-content: space-around;
         align-items: center;
     }
+
 }
