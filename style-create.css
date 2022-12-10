@@ -7,7 +7,7 @@
 
 body {
     display: grid;
-    overflow: hidden;
+    overflow: auto;
     grid-template-areas:
         "header header"
         "main aside";
