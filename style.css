@@ -122,7 +122,7 @@ button {
     }
 
     aside {
-        width: 365px;
+        width: 414px;
         height: 57em;
         overflow: scroll;
     }
@@ -142,7 +142,7 @@ button {
     }
 
     .inputUser {
-        font-size: 19px;
+        font-size: 15px;
         display: flex;
         color: white;
         background: none;
@@ -164,6 +164,7 @@ button {
         font-size: 20px;
         top: -60px;
         flex-direction: column;
+        margin-top: -30px;
     }
 
     .forgot {
@@ -182,6 +183,7 @@ button {
         border: none;
         border-radius: 10px;
         color: white;
+        margin-top: -90px;
     }
 
     .bp {
@@ -196,7 +198,7 @@ button {
         display: flex;
         position: relative;
         justify-content: center;
-        top: -4em;
+        top: -8em;
         gap: 1em;
     }
 
