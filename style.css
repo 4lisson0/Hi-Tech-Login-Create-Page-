@@ -110,7 +110,7 @@ button {
     text-decoration: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     main {
         width: 0em;
         height: 0em;
@@ -122,9 +122,8 @@ button {
     }
 
     aside {
-        width: 414px;
-        height: 57em;
-        overflow: scroll;
+        width: 365px;
+        height: 59em;
     }
 
     .form {
