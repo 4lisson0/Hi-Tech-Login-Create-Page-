@@ -7,7 +7,7 @@
 
 body {
     display: grid;
-    overflow: auto;
+    overflow: hidden;
     grid-template-areas:
         "header header"
         "main aside";
@@ -110,6 +110,13 @@ button {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main aside";
+    }
+    
     main {
         width: 0em;
         height: 0em;
