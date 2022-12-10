@@ -122,8 +122,9 @@ button {
     }
 
     aside {
-        width: 365px;
-        height: 59em;
+        width: 414px;
+        height: 57em;
+        overflow: scroll;
     }
 
     .form {
