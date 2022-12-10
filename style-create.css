@@ -109,14 +109,7 @@ button {
     text-decoration: none;
 }
 
-@media screen and (max-width: 500px) {
-    body {
-    display: grid;
-    grid-template-areas:
-        "header header"
-        "main aside";
-    }
-    
+@media screen and (max-width: 416px) {
     main {
         width: 0em;
         height: 0em;
@@ -128,33 +121,34 @@ button {
     }
 
     aside {
-        width: 365px;
+        width: 401px;
         height: 59em;
     }
     .form {
         color: white;
         font-family: 'Quicksand';
-        font-size: 22px;
+        font-size: 17px;
         display: flex;
-        gap: 65px;
+        gap: 62px;
         padding: 1em;
         border: transparent;
         flex-wrap: wrap;
         flex-direction: column;
         align-content: space-around;
-        margin-top: 1em;
+        margin-top: 0em;
         align-items: center;
     }
     
     .inputUser {
-        font-size: 12px;
+        font-size: 17px;
         display: flex;
         color: white;
         background: none;
         border: 3px solid #7A0BC0;
         border-radius: 10px;
-        width: 235px;
+        width: 314px;
         height: 36px;
+        margin-top: 28px;
     }
     
     label {
@@ -170,6 +164,7 @@ button {
         top: -60px;
         flex-direction: column;
         align-items: flex-start;
+        margin-top: -10px;
     }
     
     .forgot {
@@ -188,6 +183,7 @@ button {
         border: none;
         border-radius: 10px;
         color: white;
+        margin-top: -73px;
     }
     
     .bp {
@@ -207,5 +203,6 @@ button {
         flex-wrap: wrap;
         align-content: space-around;
         align-items: center;
+        margin-top: -27px;
     }
 }
