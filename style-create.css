@@ -121,8 +121,10 @@ button {
     }
 
     aside {
-        width: 365px;
-        height: 59em;
+        width: 55em;
+        height: 51em;
+    }
+    
     }
     .form {
         color: white;
