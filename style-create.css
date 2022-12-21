@@ -109,7 +109,7 @@ button {
     text-decoration: none;
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 500px) {
     main {
         width: 0em;
         height: 0em;
@@ -121,8 +121,9 @@ button {
     }
 
     aside {
-        width: 401px;
-        height: 59em;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
     }
     .form {
         color: white;
